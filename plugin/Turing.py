@@ -41,14 +41,14 @@ class Turing:
                 data['list'][0]['article']+\
                 u'更多:'+data['list'][0]['detailurl']
 
-            elif code =='305000':
-                return data['text']+" "+\
-                data['list'][0]['trainnum']+\
-                u' 始发站:'+data['list'][0]['start']+\
-                u' 终点站:'+data['list'][0]['terminal']+\
-                u' 发车时间:'+data['list'][0]['starttime']+\
-                u' 到站时间:'+data['list'][0]['endtime']+\
-                u' 更多:'+data['list'][0]['detailurl']
+            #elif code =='305000':
+            #    return data['text']+" "+\
+            #    data['list'][0]['trainnum']+\
+            #    u' 始发站:'+data['list'][0]['start']+\
+            #    u' 终点站:'+data['list'][0]['terminal']+\
+            #    u' 发车时间:'+data['list'][0]['starttime']+\
+            #   u' 到站时间:'+data['list'][0]['endtime']+\
+            #   u' 更多:'+data['list'][0]['detailurl']
             elif str(code) =='308000':
                 # str="%s %s %s %s" % data['text'], data['list'][0]['name'], data['list'][0]['info'], data['list'][0]['detailurl']
                 str1= data['text']+" "+\
